@@ -12,7 +12,7 @@ The analysis helps to answer the following questions:
 3. Which countries have the most unicorns? Are there any cities that appear to be industry hubs?
 4. Which investors have funded the most unicorns?
 
-## Solution
+## Solutions
 
-The analysis was successfully completed with SQL within the Teradata DBMS (Database Management System).
-
+The analysis was successfully completed with SQL (Structured Query Language) within the Teradata DBMS (Database Management System).
+Solution files are located in the solutions folder.
