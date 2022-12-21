@@ -1,3 +1,4 @@
+--Create Unicorns table
 create set table Unicorns(
 	Company varchar(100),
 	Valuation bigint,
@@ -17,7 +18,7 @@ create set table Unicorns(
 -- Let's get the top 5 companies by return on investment
 select
 	top 5 company,
-	(valuation*1.0)/funding as "Return on Investment"
+	(valuation*1.0)/funding as "Return on Investment %"
 where funding > 0
 order by "Return on Investment" desc
 from unicorns;
@@ -25,7 +26,7 @@ from unicorns;
 /*
  * Output:
  * 
- * Company		Return on Investment
+ * 	Company		Return on Investment
  * 	Zapier 		4000.0
  *	Dunamu 		126.8
  *	Workhuman 	111.1
@@ -96,9 +97,9 @@ order by 2 desc;
  * Output:
  * 
  * Country with the most no. of unicorns		No. of unicorns
- * United States								562
- * China										173
- * India										65
+ * United States					562
+ * China						173
+ * India						65
  * 
  * */
 
@@ -144,8 +145,8 @@ order by 2 desc;
 /*
  * Output:
  * 
- * INVESTORS					No. of unicorns funded
- * Accel						60
+ * INVESTORS				No. of unicorns funded
+ * Accel				60
  * Tiger Global Management		55
  * Andreessen Horowitz			53
  * 
