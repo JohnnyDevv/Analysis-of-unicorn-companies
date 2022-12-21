@@ -1,4 +1,5 @@
 --Create Unicorns table
+
 create set table Unicorns(
 	Company varchar(100),
 	Valuation bigint,
@@ -16,6 +17,7 @@ create set table Unicorns(
 
 -- Which unicorn companies have had the biggest return on investment?
 -- Let's get the top 5 companies by return on investment
+
 select
 	top 5 company,
 	(valuation*1.0)/funding as "Return on Investment %"
@@ -36,6 +38,7 @@ from unicorns;
  */
 
 -- How long does it usually take for a company to become a unicorn?
+
 select
 	company,
 	cast('20' || right(date_joined, 2) as int) as unicorn_year,
@@ -64,6 +67,7 @@ where
 */	
 	
 -- Has it always been this way?
+
 select
 	concat(
 		'Before the 21st century, it took ',
@@ -86,6 +90,7 @@ and
 	
 -- Which countries have the most unicorns?
 -- Let's get the top 3 countries by no. of unicorns
+
 select
 	top 3
 	country as "Countries with the most no. of unicorns",
@@ -106,6 +111,7 @@ order by 2 desc;
  * */
 
 -- Are there any cities that appear to be industry hubs?
+
 select city, industry, "No. of unicorn companies" from (
 	select    
 	    city,
@@ -129,7 +135,8 @@ order by 3 desc;
 
 -- Which investors have funded the most unicorns?
 -- Let's get the top 3 investors by no. of unicorns funded
-sel top 3 trim(investors), count(*) "No. of unicorns funded" from(
+
+select top 3 trim(investors), count(*) "No. of unicorns funded" from(
 	SELECT 
 		split_d.* 
 	FROM TABLE (
