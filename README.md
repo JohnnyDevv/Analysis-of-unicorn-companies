@@ -14,5 +14,5 @@ The analysis helps to answer the following questions:
 
 ## Solutions
 
-The analysis was successfully completed with SQL (Structured Query Language) within the Teradata DBMS (Database Management System).
+I successfully completed the analysis with SQL (Structured Query Language) within the Teradata DBMS (Database Management System).
 Solution files are located in the solution folder.
