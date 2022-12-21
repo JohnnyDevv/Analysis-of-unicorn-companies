@@ -26,7 +26,7 @@ from unicorns;
 /*
  * Output:
  * 
- * 	Company		Return on Investment
+ * 	Company		Return on Investment %
  * 	Zapier 		4000.0
  *	Dunamu 		126.8
  *	Workhuman 	111.1
