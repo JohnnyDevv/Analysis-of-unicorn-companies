@@ -1,3 +1,5 @@
+/* Entire script written by John Uzoma */
+
 --Create Unicorns table
 
 create set table Unicorns(
@@ -38,15 +40,6 @@ from unicorns;
  */
 
 -- How long does it usually take for a company to become a unicorn?
-
-select
-	company,
-	cast('20' || right(date_joined, 2) as int) as unicorn_year,
-	cast(year_founded as int) as year_founded,
-	unicorn_year - year_founded as "Amount of time before it became a unicorn"
-where "Amount of time before it became a unicorn" >= 0
-order by 4 desc
-from unicorns;
 
 select
 	concat(
