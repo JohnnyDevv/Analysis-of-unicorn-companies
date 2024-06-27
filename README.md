@@ -1,6 +1,10 @@
 ### Executive Summary
 
-Using SQL, I pulled data on private companies with a valuation over $1 billion as of March 2022, including each company's current valuation, funding, country of origin, industry, select investors, and the years they were founded and became unicorns. I analyzed unicorn companies, uncovering insights on return on investment, time to achieve unicorn status, geographical distribution, and top investors.
+Using SQL, I pulled data on private companies with a valuation over $1 billion as of March 2022, including each company's current valuation, funding, country of origin, industry, select investors, and the years they were founded and became unicorns. 
+
+I analyzed unicorn companies, uncovering insights on return on investment, time to achieve unicorn status, geographical distribution, and top investors.
+
+The database I used was Teradata Vantage Express and the development environment was Teradata Studio.
 
 ### Key Questions
 
