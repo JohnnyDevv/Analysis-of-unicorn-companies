@@ -25,4 +25,4 @@ My analysis provided answers to these questions:
    -  b. San Francisco is the industry hub for Internet Software & Services because it has the highest number of unicorn firms (54) in that space. Other industry hubs can be viewed in the solution folder.
 4. Accel, Tiger Global Management and Andreessen Horowitz are the 3 investors that funded the most number of unicorns.
    
-Solution files are located in the solution folder.
+Solution files are located in the "solution" folder on the left-hand side.
